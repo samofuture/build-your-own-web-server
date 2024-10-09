@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 // This is where all the networking stuff is
 var net = require("net");
 function newConn(socket) {
@@ -8,6 +8,7 @@ function newConn(socket) {
         // FIN Received connection will be closed automatically
         console.log('EOF.');
     });
+    // Read and Write
     socket.on('data', function (data) {
         console.log('data:', data);
         socket.write(data); //Echo back the data
@@ -28,4 +29,3 @@ server.listen({ host: '127.0.0.1', port: 1234 });
 server.on('connection', newConn);
 // On an error event, throw the error
 server.on('error', function (err) { throw err; });
-// Read and Write

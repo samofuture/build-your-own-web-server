@@ -7,6 +7,8 @@ function newConn(socket: net.Socket): void{
         // FIN Received connection will be closed automatically
         console.log('EOF.')
     });
+
+    // Read and Write
     socket.on('data', (data: Buffer) => {
         console.log('data:', data);
         socket.write(data); //Echo back the data
@@ -33,5 +35,3 @@ server.on('connection', newConn);
 
 // On an error event, throw the error
 server.on('error', (err: Error) => {throw err;});
-
-// Read and Write
