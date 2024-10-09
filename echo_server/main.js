@@ -15,13 +15,14 @@ function newConn(socket) {
         // If the data has a q, quit
         if (data.includes('q')) {
             console.log('closing.');
-            socket.end();
+            socket.end(); // No longer works after half open enabled
+            socket.destroy();
         }
     });
 }
 // Different sockets are represented as JS objects
 // Creates a listening socket whose type is net.server
-var server = net.createServer();
+var server = net.createServer({ allowHalfOpen: true });
 // For more events for a server: https://nodejs.org/api/net.html#class-netserver
 // Binds and listens on an address
 server.listen({ host: '127.0.0.1', port: 1234 });
