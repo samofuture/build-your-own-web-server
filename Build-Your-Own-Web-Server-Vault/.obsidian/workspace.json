@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "1286689ba799e8a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e8adc9ae70d8543",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db4a21796c522c4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home Page.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6022e96a5a0a39e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TCP Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "10790d336dd4e920",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Socket API.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c1251c002b9eb3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Echo Server.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "17329a978a21f008",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Socket Primitives.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2b73e740a8626320",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTTP Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da459ec0a5da642d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Glossary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2e2f37bd3324ff05",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2026e34559d06d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e98ed5f273fb65b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6cda65673f5ff0d7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "337e182880e7dc6c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "68d453ba361e4a1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "2bf79450ae007f1a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0ecb5e5cab4f513",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Echo Server.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "37bd9baa279c2cd6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Echo Server.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "395ab3679346c2b0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a43d295fdbbfed55",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Echo Server.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5c1251c002b9eb3d",
+  "lastOpenFiles": [
+    "Socket API.md",
+    "Echo Server.md",
+    "TCP Overview.md",
+    "Socket Primitives.md",
+    "Glossary.md",
+    "DNS.md",
+    "Home Page.md",
+    "HTTP Overview.md",
+    "tcp-ip-model-layers-and-their-functions.md",
+    "tcp-ip-model-layers-and-their-functions.png",
+    "tcp-ip-model-layers-and-their-functions.png.crdownload",
+    "Command Line Tools.md",
+    "Welcome.md"
+  ]
+}
