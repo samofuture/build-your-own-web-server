@@ -32,42 +32,6 @@
             }
           },
           {
-            "id": "10790d336dd4e920",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Socket API.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c1251c002b9eb3d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Echo Server.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17329a978a21f008",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Socket Primitives.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2b73e740a8626320",
             "type": "leaf",
             "state": {
@@ -92,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Echo Server.md",
+                "file": "TCP Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Echo Server.md",
+                "file": "TCP Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Echo Server.md"
+                "file": "TCP Overview.md"
               }
             }
           }
@@ -219,12 +183,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5c1251c002b9eb3d",
+  "active": "6022e96a5a0a39e3",
   "lastOpenFiles": [
-    "Socket API.md",
     "Echo Server.md",
     "TCP Overview.md",
     "Socket Primitives.md",
+    "Socket API.md",
     "Glossary.md",
     "DNS.md",
     "Home Page.md",

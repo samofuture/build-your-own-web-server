@@ -27,5 +27,17 @@ Once the handshake is completed, the connection can be accepted by the server.
 
 ### End
 A peer tells the other side that no more data will be sent with the FIN flag, then the other side ACKs the FIN. Each direction of the channels can be terminated independently, so the other side performs the same handshake fully to close the connection.
+
+### Half-Open Connections
+```javascript
+let server = net.createServer({allowHalfOpen: true});
+```
+Since each connection is ended independently it's possible to make use of the state where one direction is closed and the other is still open. This is known as TCP half-open. For example, if peer A half closes the connection to peer B:
+- A can't send any data but can still receive from B
+- B gets EOF, but can still send to A
+
+If half-open connections are allowed, `socket.end()` will no longer close the connection. Use `socket.destroy()` to close the connection manually.
+
+This kind of connection isn't used a lot, most of the time, applications will treat EOF as being fully closed, and will close the socket immediately.
 ## UDP
 This is on the same layer, but still uses packets like the IP layer. UDP adds port numbers over those IP packets.
