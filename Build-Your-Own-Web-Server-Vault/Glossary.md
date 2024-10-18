@@ -10,3 +10,6 @@ An ordered sequence of bytes. Protocols make sense of what is in these bytes.
 Like file formats, except the total length is unknown and the data is read in one pass.
 ## Socket Handle
 A unique identifier for a socket. It allows applications to interact with the socket through system calls. In Linux, a socket handle is simply a file descriptor (fd). In Node.js, socket handles are wrapped into JS objects with methods on them.
+# [[Javascript Overview#Event Loop|Event Loop]]
+
+
